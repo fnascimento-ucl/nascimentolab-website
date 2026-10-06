@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /patients/
-title: patients & public
+title: patients
 description: Information for patients, families and volunteers who would like to take part in our research or hear about it.
 nav: true
 nav_order: 7
