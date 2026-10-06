@@ -1,0 +1,298 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/*******************************************************************************
+ * Translational Motor Neurophysiology Lab — site overrides
+ * UCL brand purples: dark #361a54, bright #993bff, mid #ba82ff,
+ * light #ddbdff, pale #eedeff.
+ ******************************************************************************/
+
+:root {
+  --tml-dark-purple: #361a54;
+  --tml-bright-purple: #993bff;
+  --tml-mid-purple: #ba82ff;
+  --tml-light-purple: #ddbdff;
+  --tml-pale-purple: #eedeff;
+  --tml-heading-color: #361a54;
+  --tml-soft-bg: #f6efff;
+  --tml-card-border: #e4d4fb;
+  --global-theme-color: #993bff;
+  --global-hover-color: #7a1fe0;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #361a54;
+  --global-footer-text-color: #ddbdff;
+  --global-footer-link-color: #ffffff;
+  --global-code-bg-color: rgba(153, 59, 255, 0.06);
+}
+
+html[data-theme="dark"] {
+  --tml-heading-color: #ddbdff;
+  --tml-soft-bg: #2a2236;
+  --tml-card-border: #41355a;
+  --global-theme-color: #ba82ff;
+  --global-hover-color: #ddbdff;
+  --global-hover-text-color: #1c1c1d;
+  --global-footer-bg-color: #2a1442;
+  --global-footer-text-color: #ddbdff;
+  --global-footer-link-color: #ffffff;
+}
+
+.navbar.navbar-light .navbar-brand.title {
+  font-size: 1.05rem;
+  font-weight: 600 !important;
+  color: var(--tml-heading-color);
+}
+
+.post-title,
+.post-header h1 {
+  color: var(--tml-heading-color);
+}
+
+/* Hero on the home page */
+.tml-hero {
+  border-left: 6px solid var(--global-theme-color);
+  background: var(--tml-soft-bg);
+  border-radius: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  margin: 0.5rem 0 1.5rem;
+}
+.tml-hero p {
+  margin-bottom: 0.4rem;
+}
+.tml-hero .tml-lead {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--tml-heading-color);
+}
+
+/* Buttons */
+.tml-btn,
+a.tml-btn {
+  display: inline-block;
+  padding: 0.55rem 1.1rem;
+  margin: 0.25rem 0.4rem 0.25rem 0;
+  border-radius: 999px;
+  border: 2px solid var(--global-theme-color);
+  background: var(--global-theme-color);
+  color: #ffffff !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+html[data-theme="dark"] .tml-btn,
+html[data-theme="dark"] a.tml-btn {
+  color: #1c1c1d !important;
+}
+a.tml-btn:hover {
+  background: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+}
+a.tml-btn.tml-btn-outline {
+  background: transparent;
+  color: var(--global-theme-color) !important;
+}
+a.tml-btn.tml-btn-outline:hover {
+  background: var(--global-theme-color);
+  color: #ffffff !important;
+}
+
+/* Generic grid + cards */
+.tml-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+.tml-grid.tml-grid-2 {
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+.tml-card {
+  border: 1px solid var(--tml-card-border);
+  border-radius: 0.75rem;
+  padding: 1.1rem 1.2rem;
+  background: var(--global-card-bg-color);
+}
+.tml-card h3,
+.tml-card h4 {
+  margin-top: 0;
+  color: var(--tml-heading-color);
+}
+.tml-card p:last-child {
+  margin-bottom: 0;
+}
+.tml-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin-bottom: 0.35rem;
+}
+
+/* People */
+.tml-person {
+  text-align: center;
+}
+.tml-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 0.75rem;
+  display: block;
+}
+.tml-avatar-initials {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 0 auto 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #361a54, #993bff);
+}
+.tml-person .tml-role {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+.tml-pi {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1rem 0 2rem;
+}
+.tml-pi img {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+@media (max-width: 640px) {
+  .tml-pi {
+    grid-template-columns: 1fr;
+  }
+  .tml-pi img {
+    max-width: 260px;
+  }
+}
+
+/* Research figures */
+.tml-figure {
+  margin: 1rem 0 1.75rem;
+}
+.tml-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  border: 1px solid var(--tml-card-border);
+}
+.tml-figure figcaption,
+.tml-gallery figcaption {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.4rem;
+}
+.tml-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+.tml-gallery figure {
+  margin: 0;
+}
+.tml-gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  border: 1px solid var(--tml-card-border);
+}
+.tml-gallery img.tml-dark-img {
+  background: #000000;
+}
+
+/* Callout / notice boxes */
+.tml-callout {
+  background: var(--tml-soft-bg);
+  border-radius: 0.75rem;
+  padding: 1.1rem 1.3rem;
+  margin: 1.25rem 0;
+  border: 1px solid var(--tml-card-border);
+}
+.tml-callout h3 {
+  margin-top: 0;
+  color: var(--tml-heading-color);
+}
+.tml-steps {
+  counter-reset: tmlstep;
+  list-style: none;
+  padding-left: 0;
+}
+.tml-steps li {
+  counter-increment: tmlstep;
+  position: relative;
+  padding-left: 2.6rem;
+  margin-bottom: 0.9rem;
+}
+.tml-steps li::before {
+  content: counter(tmlstep);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Funding list */
+.tml-funder {
+  font-weight: 600;
+  color: var(--tml-heading-color);
+}
+.tml-meta {
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+}
