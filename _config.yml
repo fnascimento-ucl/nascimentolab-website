@@ -2,21 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Nascimento Lab # the website title (if blank, full name will be used instead)
+title: Translational Motor Neurophysiology Lab # the website title (if blank, full name will be used instead)
 first_name: Filipe
 middle_name:
 last_name: Nascimento
 contact_note: >
-  Email is the best way to reach us.
+  Email is the best way to reach us. Interested in taking part in our research? See our <a href="/patients/">patients &amp; public</a> page.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Nascimento Lab at UCL. We use high-density surface EMG and motor unit analysis to develop functional biomarkers for patients.
+  Translational Motor Neurophysiology Lab at UCL. We study how spinal cord circuits control movement and change in neuromuscular disease such as ALS/MND, linking mouse neurophysiology with high-density surface EMG and motor unit decoding in people.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: HDsEMG, high-density surface EMG, motor units, neuromuscular, biomarkers, UCL # add your own keywords or leave empty
+  Translational Motor Neurophysiology Lab · Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London.
+keywords: spinal cord, motoneurons, motor units, HDsEMG, high-density surface EMG, ALS, MND, neuromuscular disease, neurophysiology, UCL # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚡ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://nascimentolab.com # the base hostname & protocol for your site
@@ -99,19 +97,19 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1100px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -136,8 +134,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Translational Motor Neurophysiology Lab # blog_name will be displayed in your blog page
+blog_description: news from the Translational Motor Neurophysiology Lab
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -245,6 +243,20 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/cv.md
+  - _pages/dropdown.md
+  - _pages/plugins.md
+  - _pages/projects.md
+  - _pages/teaching.md
+  - _posts/
+  - _books/
+  - _projects/
+  - _teachings/
+  - _news/announcement_1.md
+  - _news/announcement_2.md
+  - _news/announcement_3.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -356,8 +368,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Nascimento]
+  first_name: [Filipe, F.]
 
   style: apa
   locale: en
