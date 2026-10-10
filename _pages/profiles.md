@@ -28,22 +28,28 @@ nav_order: 2
 
 ## Lab members
 
-<div class="tml-grid">
-  <div class="tml-card tml-person">
+<div class="tml-people">
+  <div class="tml-card tml-person-row">
     <div class="tml-avatar-initials" aria-hidden="true">KM</div>
-    <h4>Kath Mazur</h4>
-    <p class="tml-role">Lab member</p>
+    <div class="tml-person-text">
+      <h4>Kath Mazur</h4>
+      <p class="tml-role">Lab member</p>
+    </div>
   </div>
-  <div class="tml-card tml-person">
+  <div class="tml-card tml-person-row">
     <img class="tml-avatar" src="{{ '/assets/img/ragul_selvamoorthy.jpg' | relative_url }}" alt="Photo of Ragul Selvamoorthy">
-    <h4>Ragul Selvamoorthy</h4>
-    <p class="tml-role">Research Fellow</p>
-    <p class="tml-meta" style="text-align:left">Ragul trained in sport science and strength and conditioning before a PhD in neuromuscular physiology at the University of Stirling. As a research fellow with Dr Eduardo Martinez-Valdes at the University of Birmingham, he used high-density surface EMG and ultrasound to study motor unit behaviour during tendon rehabilitation. He joined the lab in October 2026 to investigate how spinal circuits and motor neuron firing change over the course of MND/ALS, using non-invasive human electrophysiology.</p>
+    <div class="tml-person-text">
+      <h4>Ragul Selvamoorthy</h4>
+      <p class="tml-role">Research Fellow</p>
+      <p>Ragul trained in sport science and strength and conditioning before a PhD in neuromuscular physiology at the University of Stirling. As a research fellow with Dr Eduardo Martinez-Valdes at the University of Birmingham, he used high-density surface EMG and ultrasound to study motor unit behaviour during tendon rehabilitation. He joined the lab in October 2026 to investigate how spinal circuits and motor neuron firing change over the course of MND/ALS, using non-invasive human electrophysiology.</p>
+    </div>
   </div>
-  <div class="tml-card tml-person">
+  <div class="tml-card tml-person-row">
     <div class="tml-avatar-initials" aria-hidden="true">BW</div>
-    <h4>Bartosz Wasicki</h4>
-    <p class="tml-role">Lab member</p>
+    <div class="tml-person-text">
+      <h4>Bartosz Wasicki</h4>
+      <p class="tml-role">Lab member</p>
+    </div>
   </div>
 </div>
 
