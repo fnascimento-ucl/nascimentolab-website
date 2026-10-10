@@ -73,6 +73,7 @@ We believe research is better when patients and the public help shape it. You ca
 ## Useful links
 
 - [MND Association](https://www.mndassociation.org/): information and support for people living with MND, their families and carers.
+- [Dystonia UK](https://www.dystonia.org.uk/): information and support for people living with dystonia, their families and carers.
 - [Be Part of Research (NIHR)](https://bepartofresearch.nihr.ac.uk/): search for health research studies across the UK.
 - [Muscular Dystrophy UK](https://www.musculardystrophyuk.org/): support and information on muscle-wasting and neuromuscular conditions.
 
