@@ -58,23 +58,55 @@ We work closely with colleagues across UCL and beyond.
   </div>
   <div class="tml-card">
     <h4>Prof Marco Beato</h4>
-    <p class="tml-meta">UCL</p>
+    <p class="tml-meta">Neuroscience, Physiology and Pharmacology, UCL</p>
   </div>
   <div class="tml-card">
     <h4>Dr M. Görkem Özyurt</h4>
-    <p class="tml-meta">UCL</p>
+    <p class="tml-meta">Neuroscience, Physiology and Pharmacology, UCL</p>
+  </div>
+  <div class="tml-card">
+    <h4><a href="https://bsicos.i3a.es/alejandro-pascual-valdunciel/">Dr Alejandro Pascual-Valdunciel</a></h4>
+    <p class="tml-meta">BSICoS Group, University of Zaragoza</p>
   </div>
   <div class="tml-card">
     <h4>Prof Dario Farina</h4>
-    <p class="tml-meta">Imperial College London</p>
+    <p class="tml-meta">Department of Bioengineering, Imperial College London</p>
   </div>
   <div class="tml-card">
-    <h4>Dr Alejandro Pascual-Valdunciel</h4>
-    <p class="tml-meta">Human neurophysiology and motor unit decoding</p>
+    <h4>Prof Jo Ng</h4>
+    <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
   </div>
   <div class="tml-card">
     <h4>Prof Francesco Muntoni</h4>
-    <p class="tml-meta">UCL Great Ormond Street Institute of Child Health</p>
+    <p class="tml-meta">Dubowitz Neuromuscular Centre, UCL Great Ormond Street Institute of Child Health</p>
+  </div>
+  <div class="tml-card">
+    <h4>Dr James Sleigh</h4>
+    <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
+  </div>
+  <div class="tml-card">
+    <h4>Prof Pietro Fratta</h4>
+    <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
+  </div>
+  <div class="tml-card">
+    <h4>Prof Andrea Malaspina</h4>
+    <p class="tml-meta">Queen Square Motor Neuron Disease Centre, UCL Queen Square Institute of Neurology</p>
+  </div>
+  <div class="tml-card">
+    <h4>Dr Ilary Allodi</h4>
+    <p class="tml-meta">School of Psychology and Neuroscience, University of St Andrews</p>
+  </div>
+  <div class="tml-card">
+    <h4><a href="https://neurosharps.com/">Dr Simon Sharples</a></h4>
+    <p class="tml-meta">Department of Kinesiology, Penn State University</p>
+  </div>
+  <div class="tml-card">
+    <h4>Prof Jens Bo Nielsen</h4>
+    <p class="tml-meta">Department of Neuroscience, University of Copenhagen</p>
+  </div>
+  <div class="tml-card">
+    <h4><a href="https://www.sppin.fr/members/guillaume-caron/">Dr Guillaume Caron</a></h4>
+    <p class="tml-meta">Saints-Pères Paris Institute for the Neurosciences, Université Paris Cité</p>
   </div>
 </div>
 
