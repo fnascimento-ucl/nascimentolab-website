@@ -41,7 +41,7 @@ nav_order: 2
     <div class="tml-person-text">
       <h4>Ragul Selvamoorthy</h4>
       <p class="tml-role">Research Fellow</p>
-      <p>Ragul trained in sport science and strength and conditioning before a PhD in neuromuscular physiology at the University of Stirling. As a research fellow with Dr Eduardo Martinez-Valdes at the University of Birmingham, he used high-density surface EMG and ultrasound to study motor unit behaviour during tendon rehabilitation. He joined the lab in October 2026 to investigate how spinal circuits and motor neuron firing change over the course of MND/ALS, using non-invasive human electrophysiology.</p>
+      <p>Ragul trained in sport science and strength and conditioning before a PhD in neuromuscular physiology at the University of Stirling, where he studied the neuromuscular effects of resistance training. As a research fellow with Dr Eduardo Martinez-Valdes at the University of Birmingham, he ran a clinical trial of resistance training for tendon rehabilitation, using high-density surface EMG and ultrasound to study motor unit behaviour. He joined the lab in October 2026 to investigate how spinal circuits and motor neuron firing change over the course of MND/ALS, using non-invasive human electrophysiology such as high-density surface EMG and nerve stimulation.</p>
     </div>
   </div>
   <div class="tml-card tml-person-row">
