@@ -34,37 +34,37 @@
 
 /*******************************************************************************
  * Translational Motor Neurophysiology Lab — site overrides
- * UCL brand purples: dark #361a54, bright #993bff, mid #ba82ff,
- * light #ddbdff, pale #eedeff.
+ * Colours follow the lab logo: navy #002050, teal #0090a8 (text teal #0b7285),
+ * light teal #b5e3ec, pale teal #e3f3f6.
  ******************************************************************************/
 
 :root {
-  --tml-dark-purple: #361a54;
-  --tml-bright-purple: #993bff;
-  --tml-mid-purple: #ba82ff;
-  --tml-light-purple: #ddbdff;
-  --tml-pale-purple: #eedeff;
-  --tml-heading-color: #361a54;
-  --tml-soft-bg: #f6efff;
-  --tml-card-border: #e4d4fb;
-  --global-theme-color: #993bff;
-  --global-hover-color: #7a1fe0;
+  --tml-navy: #002050;
+  --tml-teal: #0b7285;
+  --tml-mid-teal: #5cc8d9;
+  --tml-light-teal: #b5e3ec;
+  --tml-pale-teal: #e3f3f6;
+  --tml-heading-color: #002050;
+  --tml-soft-bg: #eef7f9;
+  --tml-card-border: #d3e6ec;
+  --global-theme-color: #0b7285;
+  --global-hover-color: #085868;
   --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #361a54;
-  --global-footer-text-color: #ddbdff;
+  --global-footer-bg-color: #002050;
+  --global-footer-text-color: #b5e3ec;
   --global-footer-link-color: #ffffff;
-  --global-code-bg-color: rgba(153, 59, 255, 0.06);
+  --global-code-bg-color: rgba(11, 114, 133, 0.06);
 }
 
 html[data-theme="dark"] {
-  --tml-heading-color: #ddbdff;
-  --tml-soft-bg: #2a2236;
-  --tml-card-border: #41355a;
-  --global-theme-color: #ba82ff;
-  --global-hover-color: #ddbdff;
+  --tml-heading-color: #b5e3ec;
+  --tml-soft-bg: #16262e;
+  --tml-card-border: #2b4652;
+  --global-theme-color: #5cc8d9;
+  --global-hover-color: #b5e3ec;
   --global-hover-text-color: #1c1c1d;
-  --global-footer-bg-color: #2a1442;
-  --global-footer-text-color: #ddbdff;
+  --global-footer-bg-color: #001230;
+  --global-footer-text-color: #b5e3ec;
   --global-footer-link-color: #ffffff;
 }
 
@@ -131,6 +131,80 @@ html[data-theme="dark"] .tml-funder-logo .tml-on-dark {
 }
 html[data-theme="dark"] .tml-funder-logo .tml-on-light {
   display: none;
+}
+
+/* Lab mark next to the lab name in the top bar */
+.navbar .navbar-brand.title::before {
+  content: "";
+  display: inline-block;
+  width: 1.7em;
+  height: 1.7em;
+  margin-right: 0.45em;
+  vertical-align: -0.5em;
+  background: url("{{ '/assets/img/lab_icon.png' | relative_url }}") center / contain no-repeat;
+}
+html[data-theme="dark"] .navbar .navbar-brand.title::before {
+  background-color: #fafaf8;
+  border-radius: 0.35em;
+}
+
+/* Home page figure, floated beside the intro text */
+.tml-home-fig {
+  float: right;
+  width: 42%;
+  margin: 0.25rem 0 1rem 1.75rem;
+}
+.tml-home-fig img {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--tml-card-border);
+  background: #ffffff;
+}
+.tml-home-fig figcaption {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.4rem;
+}
+@media (max-width: 768px) {
+  .tml-home-fig {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.25rem;
+  }
+}
+
+/* Full-width stacked cards */
+.tml-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+/* Compact collaborator list */
+.tml-collab {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem;
+  columns: 2;
+  column-gap: 2.5rem;
+}
+.tml-collab li {
+  break-inside: avoid;
+  margin-bottom: 0.85rem;
+}
+.tml-collab a {
+  font-weight: 500;
+}
+.tml-collab span {
+  display: block;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+@media (max-width: 640px) {
+  .tml-collab {
+    columns: 1;
+  }
 }
 
 /* Buttons */
@@ -220,7 +294,7 @@ a.tml-btn.tml-btn-outline:hover {
   font-size: 2.6rem;
   font-weight: 600;
   color: #ffffff;
-  background: linear-gradient(135deg, #361a54, #993bff);
+  background: linear-gradient(135deg, #002050, #0b7285);
 }
 .tml-person .tml-role {
   color: var(--global-text-color-light);
