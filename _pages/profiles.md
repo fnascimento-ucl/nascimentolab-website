@@ -57,68 +57,23 @@ nav_order: 2
 
 We work closely with colleagues across UCL and beyond.
 
-<div class="tml-grid tml-grid-2">
-  <div class="tml-card">
-    <h4><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neuromuscular-diseases/research-groups/neural-circuits-movement-laboratory-brownstone-research-group">Rob Brownstone</a></h4>
-    <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://www.ucl.ac.uk/life-sciences/beato-lab">Marco Beato</a></h4>
-    <p class="tml-meta">Neuroscience, Physiology and Pharmacology, UCL</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://profiles.ucl.ac.uk/74810-gorkem-ozyurt">M. Görkem Özyurt</a></h4>
-    <p class="tml-meta">Neuroscience, Physiology and Pharmacology, UCL</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://bsicos.i3a.es/alejandro-pascual-valdunciel/">Alejandro Pascual-Valdunciel</a></h4>
-    <p class="tml-meta">BSICoS Group, University of Zaragoza</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://profiles.imperial.ac.uk/d.farina">Dario Farina</a></h4>
-    <p class="tml-meta">Department of Bioengineering, Imperial College London</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neurodegenerative-disease/people/professor-joanne-jo-ngs-group">Jo Ng</a></h4>
-    <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neurodegenerative-disease/people/professor-francesco-muntonis-group">Francesco Muntoni</a></h4>
-    <p class="tml-meta">Dubowitz Neuromuscular Centre, UCL Great Ormond Street Institute of Child Health</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neuromuscular-diseases/research-groups/sleigh-research-group">James Sleigh</a></h4>
-    <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://profiles.ucl.ac.uk/6310-pietro-fratta">Pietro Fratta</a></h4>
-    <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://profiles.ucl.ac.uk/81790-andrea-malaspina">Andrea Malaspina</a></h4>
-    <p class="tml-meta">Queen Square Motor Neuron Disease Centre, UCL Queen Square Institute of Neurology</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://profiles.ucl.ac.uk/30617-nicol-birsa">Nicol Birsa</a></h4>
-    <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://ncdl.net/">Ilary Allodi</a></h4>
-    <p class="tml-meta">School of Psychology and Neuroscience, University of St Andrews</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://neurosharps.com/">Simon Sharples</a></h4>
-    <p class="tml-meta">Department of Kinesiology, Penn State University</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://researchprofiles.ku.dk/en/persons/jens-bo-nielsen">Jens Bo Nielsen</a></h4>
-    <p class="tml-meta">Department of Neuroscience, University of Copenhagen</p>
-  </div>
-  <div class="tml-card">
-    <h4><a href="https://www.sppin.fr/members/guillaume-caron/">Guillaume Caron</a></h4>
-    <p class="tml-meta">Saints-Pères Paris Institute for the Neurosciences, Université Paris Cité</p>
-  </div>
-</div>
+<ul class="tml-collab">
+  <li><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neuromuscular-diseases/research-groups/neural-circuits-movement-laboratory-brownstone-research-group">Rob Brownstone</a><span>UCL Queen Square Institute of Neurology</span></li>
+  <li><a href="https://www.ucl.ac.uk/life-sciences/beato-lab">Marco Beato</a><span>Neuroscience, Physiology and Pharmacology, UCL</span></li>
+  <li><a href="https://profiles.ucl.ac.uk/74810-gorkem-ozyurt">M. Görkem Özyurt</a><span>Neuroscience, Physiology and Pharmacology, UCL</span></li>
+  <li><a href="https://bsicos.i3a.es/alejandro-pascual-valdunciel/">Alejandro Pascual-Valdunciel</a><span>BSICoS Group, University of Zaragoza</span></li>
+  <li><a href="https://profiles.imperial.ac.uk/d.farina">Dario Farina</a><span>Department of Bioengineering, Imperial College London</span></li>
+  <li><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neurodegenerative-disease/people/professor-joanne-jo-ngs-group">Jo Ng</a><span>UCL Queen Square Institute of Neurology</span></li>
+  <li><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neurodegenerative-disease/people/professor-francesco-muntonis-group">Francesco Muntoni</a><span>Dubowitz Neuromuscular Centre, UCL Great Ormond Street Institute of Child Health</span></li>
+  <li><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neuromuscular-diseases/research-groups/sleigh-research-group">James Sleigh</a><span>UCL Queen Square Institute of Neurology</span></li>
+  <li><a href="https://profiles.ucl.ac.uk/6310-pietro-fratta">Pietro Fratta</a><span>UCL Queen Square Institute of Neurology</span></li>
+  <li><a href="https://profiles.ucl.ac.uk/81790-andrea-malaspina">Andrea Malaspina</a><span>Queen Square Motor Neuron Disease Centre, UCL Queen Square Institute of Neurology</span></li>
+  <li><a href="https://profiles.ucl.ac.uk/30617-nicol-birsa">Nicol Birsa</a><span>UCL Queen Square Institute of Neurology</span></li>
+  <li><a href="https://ncdl.net/">Ilary Allodi</a><span>School of Psychology and Neuroscience, University of St Andrews</span></li>
+  <li><a href="https://neurosharps.com/">Simon Sharples</a><span>Department of Kinesiology, Penn State University</span></li>
+  <li><a href="https://researchprofiles.ku.dk/en/persons/jens-bo-nielsen">Jens Bo Nielsen</a><span>Department of Neuroscience, University of Copenhagen</span></li>
+  <li><a href="https://www.sppin.fr/members/guillaume-caron/">Guillaume Caron</a><span>Saints-Pères Paris Institute for the Neurosciences, Université Paris Cité</span></li>
+</ul>
 
 ## Join us
 
