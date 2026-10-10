@@ -12,7 +12,7 @@ nav_order: 5
   <img class="tml-on-dark" src="{{ '/assets/img/funded_by_wellcome_white.png' | relative_url }}" alt="Funded by Wellcome">
 </div>
 
-<div class="tml-grid tml-grid-2">
+<div class="tml-stack">
   <div class="tml-card">
     <span class="tml-tag">2025 – present</span>
     <h4><a href="https://wellcome.org/research-funding/funding-portfolio/funded-grants/spinal-microcircuit-resilience-amyotrophic-lateral">Spinal microcircuit resilience in amyotrophic lateral sclerosis (ALS): mechanisms, translational insights and therapeutic windows</a></h4>
