@@ -3,7 +3,7 @@ layout: page
 title: news
 permalink: /news/
 description: Updates from the lab.
-nav: true
+nav: false
 nav_order: 6
 ---
 
