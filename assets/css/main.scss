@@ -223,6 +223,26 @@ footer.fixed-bottom {
   margin-top: auto;
 }
 
+/* Text beside a figure (research page intro) */
+.tml-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 0.5rem 0 2rem;
+}
+.tml-split .tml-figure {
+  margin: 0;
+}
+.tml-split p:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .tml-split {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Buttons */
 .tml-btn,
 a.tml-btn {
