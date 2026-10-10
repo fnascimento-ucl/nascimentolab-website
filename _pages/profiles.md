@@ -53,59 +53,59 @@ We work closely with colleagues across UCL and beyond.
 
 <div class="tml-grid tml-grid-2">
   <div class="tml-card">
-    <h4>Prof Rob Brownstone</h4>
+    <h4><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neuromuscular-diseases/research-groups/neural-circuits-movement-laboratory-brownstone-research-group">Rob Brownstone</a></h4>
     <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
   </div>
   <div class="tml-card">
-    <h4>Prof Marco Beato</h4>
+    <h4><a href="https://www.ucl.ac.uk/life-sciences/beato-lab">Marco Beato</a></h4>
     <p class="tml-meta">Neuroscience, Physiology and Pharmacology, UCL</p>
   </div>
   <div class="tml-card">
-    <h4>Dr M. Görkem Özyurt</h4>
+    <h4><a href="https://profiles.ucl.ac.uk/74810-gorkem-ozyurt">M. Görkem Özyurt</a></h4>
     <p class="tml-meta">Neuroscience, Physiology and Pharmacology, UCL</p>
   </div>
   <div class="tml-card">
-    <h4><a href="https://bsicos.i3a.es/alejandro-pascual-valdunciel/">Dr Alejandro Pascual-Valdunciel</a></h4>
+    <h4><a href="https://bsicos.i3a.es/alejandro-pascual-valdunciel/">Alejandro Pascual-Valdunciel</a></h4>
     <p class="tml-meta">BSICoS Group, University of Zaragoza</p>
   </div>
   <div class="tml-card">
-    <h4>Prof Dario Farina</h4>
+    <h4><a href="https://profiles.imperial.ac.uk/d.farina">Dario Farina</a></h4>
     <p class="tml-meta">Department of Bioengineering, Imperial College London</p>
   </div>
   <div class="tml-card">
-    <h4>Prof Jo Ng</h4>
+    <h4><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neurodegenerative-disease/people/professor-joanne-jo-ngs-group">Jo Ng</a></h4>
     <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
   </div>
   <div class="tml-card">
-    <h4>Prof Francesco Muntoni</h4>
+    <h4><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neurodegenerative-disease/people/professor-francesco-muntonis-group">Francesco Muntoni</a></h4>
     <p class="tml-meta">Dubowitz Neuromuscular Centre, UCL Great Ormond Street Institute of Child Health</p>
   </div>
   <div class="tml-card">
-    <h4>Dr James Sleigh</h4>
+    <h4><a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-departments/neuromuscular-diseases/research-groups/sleigh-research-group">James Sleigh</a></h4>
     <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
   </div>
   <div class="tml-card">
-    <h4>Prof Pietro Fratta</h4>
+    <h4><a href="https://profiles.ucl.ac.uk/6310-pietro-fratta">Pietro Fratta</a></h4>
     <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
   </div>
   <div class="tml-card">
-    <h4>Prof Andrea Malaspina</h4>
+    <h4><a href="https://profiles.ucl.ac.uk/81790-andrea-malaspina">Andrea Malaspina</a></h4>
     <p class="tml-meta">Queen Square Motor Neuron Disease Centre, UCL Queen Square Institute of Neurology</p>
   </div>
   <div class="tml-card">
-    <h4>Dr Ilary Allodi</h4>
+    <h4><a href="https://ncdl.net/">Ilary Allodi</a></h4>
     <p class="tml-meta">School of Psychology and Neuroscience, University of St Andrews</p>
   </div>
   <div class="tml-card">
-    <h4><a href="https://neurosharps.com/">Dr Simon Sharples</a></h4>
+    <h4><a href="https://neurosharps.com/">Simon Sharples</a></h4>
     <p class="tml-meta">Department of Kinesiology, Penn State University</p>
   </div>
   <div class="tml-card">
-    <h4>Prof Jens Bo Nielsen</h4>
+    <h4><a href="https://researchprofiles.ku.dk/en/persons/jens-bo-nielsen">Jens Bo Nielsen</a></h4>
     <p class="tml-meta">Department of Neuroscience, University of Copenhagen</p>
   </div>
   <div class="tml-card">
-    <h4><a href="https://www.sppin.fr/members/guillaume-caron/">Dr Guillaume Caron</a></h4>
+    <h4><a href="https://www.sppin.fr/members/guillaume-caron/">Guillaume Caron</a></h4>
     <p class="tml-meta">Saints-Pères Paris Institute for the Neurosciences, Université Paris Cité</p>
   </div>
 </div>
