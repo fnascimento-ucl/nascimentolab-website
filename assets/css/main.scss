@@ -210,6 +210,46 @@ a.tml-btn.tml-btn-outline:hover {
   }
 }
 
+/* Lab members: one full-width row per person, photo left, text right */
+.tml-people {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+.tml-person-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.tml-person-row .tml-avatar,
+.tml-person-row .tml-avatar-initials {
+  flex: 0 0 140px;
+  margin: 0;
+}
+.tml-person-row .tml-person-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.tml-person-row h4 {
+  margin-bottom: 0.15rem;
+}
+.tml-person-row .tml-role {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+}
+@media (max-width: 640px) {
+  .tml-person-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tml-person-row h4,
+  .tml-person-row .tml-role {
+    text-align: center;
+  }
+}
+
 /* Research figures */
 .tml-figure {
   margin: 1rem 0 1.75rem;
