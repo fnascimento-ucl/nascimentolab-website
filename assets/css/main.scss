@@ -207,6 +207,22 @@ html[data-theme="dark"] .navbar .navbar-brand.title::before {
   }
 }
 
+/* Footer sits at the end of the page instead of being pinned over the content */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0 !important;
+}
+body > .container {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+footer.fixed-bottom {
+  position: static;
+  margin-top: auto;
+}
+
 /* Buttons */
 .tml-btn,
 a.tml-btn {
