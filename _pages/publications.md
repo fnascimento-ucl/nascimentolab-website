@@ -12,6 +12,7 @@ nav_order: 3
 <p>
   <a class="tml-btn tml-btn-outline" href="https://scholar.google.com/citations?user=rVNbCDUAAAAJ&hl=en">Google Scholar</a>
   <a class="tml-btn tml-btn-outline" href="https://orcid.org/0000-0002-9426-2807">ORCID</a>
+  <a class="tml-btn tml-btn-outline" href="{{ '/repositories/' | relative_url }}">Code and repositories</a>
 </p>
 
 {% include bib_search.liquid %}
