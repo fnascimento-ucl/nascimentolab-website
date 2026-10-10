@@ -110,6 +110,29 @@ html[data-theme="dark"] .tml-logo {
   padding: 0.75rem 1rem;
 }
 
+/* Capitalise the first letter of navigation links and page titles */
+.navbar .nav-link::first-letter,
+.post-header .post-title::first-letter {
+  text-transform: uppercase;
+}
+
+/* Funder logo (light and dark variants) */
+.tml-funder-logo img {
+  display: block;
+  width: 130px;
+  height: auto;
+  margin: 0 0 1.5rem;
+}
+.tml-funder-logo .tml-on-dark {
+  display: none;
+}
+html[data-theme="dark"] .tml-funder-logo .tml-on-dark {
+  display: block;
+}
+html[data-theme="dark"] .tml-funder-logo .tml-on-light {
+  display: none;
+}
+
 /* Buttons */
 .tml-btn,
 a.tml-btn {
