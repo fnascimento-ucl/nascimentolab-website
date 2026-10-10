@@ -99,6 +99,10 @@ We work closely with colleagues across UCL and beyond.
     <p class="tml-meta">Queen Square Motor Neuron Disease Centre, UCL Queen Square Institute of Neurology</p>
   </div>
   <div class="tml-card">
+    <h4><a href="https://profiles.ucl.ac.uk/30617-nicol-birsa">Nicol Birsa</a></h4>
+    <p class="tml-meta">UCL Queen Square Institute of Neurology</p>
+  </div>
+  <div class="tml-card">
     <h4><a href="https://ncdl.net/">Ilary Allodi</a></h4>
     <p class="tml-meta">School of Psychology and Neuroscience, University of St Andrews</p>
   </div>
