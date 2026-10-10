@@ -26,6 +26,8 @@ latest_posts:
   enabled: false
 ---
 
+<img class="tml-logo" src="{{ '/assets/img/lab_logo.png' | relative_url }}" alt="Nascimento Lab: Translational Motor Neurophysiology">
+
 <div class="tml-hero">
   <p class="tml-lead">We study how spinal cord circuits generate, regulate and preserve movement, and how they change in neuromuscular disease.</p>
   <p>Our lab links mechanistic neurophysiology in mouse models with directly comparable, non-invasive recordings in people, with the aim of developing spinal circuit biomarkers that can help patients.</p>
