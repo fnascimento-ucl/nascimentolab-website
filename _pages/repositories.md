@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: Code, analysis tools and apps from the lab.
-nav: true
+nav: false
 nav_order: 4
 ---
 
