@@ -2,17 +2,6 @@
 layout: about
 title: home
 permalink: /
-subtitle: Department of Neuromuscular Diseases · UCL Queen Square Institute of Neurology · University College London
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <p><strong>Dr Filipe Nascimento</strong></p>
-    <p>Principal Investigator</p>
-    <p>Wellcome Career Development Award Fellow</p>
-    <p><a href="mailto:f.nascimento@ucl.ac.uk">f.nascimento@ucl.ac.uk</a></p>
 
 selected_papers: true
 social: true
@@ -26,12 +15,31 @@ latest_posts:
   enabled: false
 ---
 
+<style>
+  /* The logo carries the lab name on this page, so the text heading is hidden visually but kept for screen readers and search engines */
+  .post-header .post-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+</style>
+
 <img class="tml-logo" src="{{ '/assets/img/lab_logo.png' | relative_url }}" alt="Nascimento Lab: Translational Motor Neurophysiology">
+
+<p class="tml-meta">Department of Neuromuscular Diseases · UCL Queen Square Institute of Neurology · University College London</p>
 
 <div class="tml-hero">
   <p class="tml-lead">We study how spinal cord circuits generate, regulate and preserve movement, and how they change in neuromuscular disease.</p>
   <p>Our lab links mechanistic neurophysiology in mouse models with directly comparable, non-invasive recordings in people, with the aim of developing spinal circuit biomarkers that can help patients.</p>
 </div>
+
+<figure class="tml-home-fig">
+  <img src="{{ '/assets/img/research/spinal-circuits.png' | relative_url }}" alt="Diagram of the spinal cord circuits we study: motoneurons and the interneurons that control them">
+  <figcaption>The spinal circuits we study: motoneurons and the interneurons that shape their output.</figcaption>
+</figure>
 
 The **Translational Motor Neurophysiology Lab** is led by Dr Filipe Nascimento at University College London (UCL). Our work focuses on the spinal microcircuits that control movement — motoneurons and the premotor interneurons that shape their output — and on how these circuits adapt, compensate and eventually fail in conditions such as amyotrophic lateral sclerosis (ALS), also known as motor neuron disease (MND).
 
