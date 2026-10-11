@@ -49,7 +49,7 @@ nav_order: 2
     <div class="tml-person-text">
       <h4>Bartosz Wasicki</h4>
       <p class="tml-role">Research Fellow</p>
-      <p>Bartosz graduated in Biology and Human Health and completed an MSc in Neurobiology at Adam Mickiewicz University in Poznań, Poland. During his PhD in Prof Marcin Bączyk's lab at the Poznań University of Physical Education, he performed in vivo intracellular recordings from spinal motoneurons in mice and studied how trans-spinal direct current stimulation affects motoneurons in the SOD1 G93A mouse model of ALS. He joined the lab in 2026 to combine in vivo, in vitro and ex vivo techniques to investigate spinal microcircuits, motoneurons and motor units in ALS.</p>
+      <p>Bartosz graduated in Biology and Human Health and completed an MSc in Neurobiology at Adam Mickiewicz University in Poznań, Poland. During his PhD in Prof Marcin Bączyk's lab at the Poznań University of Physical Education, he performed <em>in vivo</em> intracellular recordings from spinal motoneurons in mice and studied how trans-spinal direct current stimulation affects motoneurons in the SOD1 G93A mouse model of ALS. He joined the lab in 2026 to combine <em>in vivo</em>, <em>in vitro</em> and <em>ex vivo</em> techniques to investigate spinal microcircuits, motoneurons and motor units in ALS.</p>
     </div>
   </div>
 </div>
