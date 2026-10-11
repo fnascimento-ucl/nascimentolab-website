@@ -22,7 +22,7 @@ nav_order: 1
 <div class="tml-grid tml-grid-2">
   <div class="tml-card">
     <span class="tml-tag">Mice</span>
-    <h4>In vitro, <em>ex vivo</em> &amp; <em>in vivo</em> electrophysiology</h4>
+    <h4><em>In vitro</em>, <em>ex vivo</em> &amp; <em>in vivo</em> electrophysiology</h4>
     <p>Whole-cell patch-clamp recordings from identified motoneurons and interneurons in spinal cord slices and longitudinal preparations from mice. Alongside these, we record from motoneurons <em>in vivo</em> in anaesthetised animals, use electromyogram (EMG) recordings to study neuromuscular transmission, reflexes and denervation, and record from neuromuscular junctions <em>ex vivo</em> in muscle-nerve preparations.</p>
   </div>
   <div class="tml-card">
@@ -61,7 +61,7 @@ In ALS, clinical weakness emerges only after more than 50% of the motoneurons ha
   </figure>
   <figure>
     <img src="{{ '/assets/img/research/h-reflex-mouse.png' | relative_url }}" alt="Schematic of sciatic nerve stimulation in mice with recordings from tibialis anterior and gastrocnemius, and example M-wave and H-reflex traces.">
-    <figcaption>In vivo EMG recordings in mice: sciatic nerve stimulation evokes M-waves and H-reflexes in tibialis anterior and gastrocnemius.</figcaption>
+    <figcaption><em>In vivo</em> EMG recordings in mice: sciatic nerve stimulation evokes M-waves and H-reflexes in tibialis anterior and gastrocnemius.</figcaption>
   </figure>
 </div>
 
