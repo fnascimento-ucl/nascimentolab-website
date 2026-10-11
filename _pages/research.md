@@ -22,13 +22,13 @@ nav_order: 1
 <div class="tml-grid tml-grid-2">
   <div class="tml-card">
     <span class="tml-tag">Mice</span>
-    <h4>In vitro, ex vivo &amp; in vivo electrophysiology</h4>
-    <p>Whole-cell patch-clamp recordings from identified motoneurons and interneurons in spinal cord slices and longitudinal preparations from mice. Alongside these, we record from motoneurons in vivo in anaesthetised animals, use electromyogram (EMG) recordings to study neuromuscular transmission, reflexes and denervation, and record from neuromuscular junctions ex vivo in muscle-nerve preparations.</p>
+    <h4>In vitro, <em>ex vivo</em> &amp; <em>in vivo</em> electrophysiology</h4>
+    <p>Whole-cell patch-clamp recordings from identified motoneurons and interneurons in spinal cord slices and longitudinal preparations from mice. Alongside these, we record from motoneurons <em>in vivo</em> in anaesthetised animals, use electromyogram (EMG) recordings to study neuromuscular transmission, reflexes and denervation, and record from neuromuscular junctions <em>ex vivo</em> in muscle-nerve preparations.</p>
   </div>
   <div class="tml-card">
     <span class="tml-tag">People</span>
     <h4>HDsEMG &amp; motor unit decoding</h4>
-    <p>Non-invasive recordings of many motor units at once, used to investigate spinal circuit function in health and disease. This is complemented by in silico modelling, developed with our collaborators, in which computational models of spinal circuits are fitted to each person's motor unit recordings to estimate the properties of the circuits that cannot be measured directly.</p>
+    <p>We use high-density surface electromyography (HDsEMG) to record the activity of many motor units at once and decompose it into the firing of individual units, allowing us to investigate spinal circuit function in people. This is complemented by <em>in silico</em> modelling, developed with our collaborators, in which computational models of spinal circuits are fitted to each person's motor unit recordings to estimate circuit properties that cannot be measured directly.</p>
   </div>
 </div>
 
