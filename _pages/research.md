@@ -13,7 +13,7 @@ nav_order: 1
   </div>
   <figure class="tml-figure">
     <img src="{{ '/assets/img/research/spinal-circuits.png' | relative_url }}" alt="Diagram of spinal cord circuits: motoneurons, Renshaw cells, Ia inhibitory interneurons and CSP inhibitory interneurons, with Ia afferents from muscle spindles and A-delta fibres from cutaneous hindlimb afferents.">
-    <figcaption>The spinal circuits we study: motoneurons and the inhibitory interneurons that shape their output (Renshaw cells, Ia inhibitory interneurons and cutaneous silent period (CSP) inhibitory interneurons), together with sensory inputs from muscle spindles and the skin.</figcaption>
+    <figcaption>Some of the spinal circuits we investigate: motoneurons and the inhibitory interneurons that shape their output (e.g. Renshaw cells, Ia inhibitory interneurons), together with sensory inputs from muscle spindles and the skin.</figcaption>
   </figure>
 </div>
 
