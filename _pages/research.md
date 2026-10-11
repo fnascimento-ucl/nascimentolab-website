@@ -2,7 +2,6 @@
 layout: page
 title: research
 permalink: /research/
-description: How spinal microcircuits generate, regulate and preserve motor function in health and neuromuscular disease.
 nav: true
 nav_order: 1
 ---
@@ -20,26 +19,16 @@ nav_order: 1
 
 ## Methods we use
 
-<div class="tml-grid">
+<div class="tml-grid tml-grid-2">
   <div class="tml-card">
-    <span class="tml-tag">Cells & synapses</span>
-    <h4>In vitro electrophysiology</h4>
-    <p>Whole-cell patch-clamp of identified motoneurons and interneurons in spinal cord slices and longitudinal preparations.</p>
-  </div>
-  <div class="tml-card">
-    <span class="tml-tag">Circuits</span>
-    <h4>Ex vivo & in vivo recordings</h4>
-    <p>Root and nerve stimulation, reflex testing and EMG in mouse models of neuromuscular disease.</p>
+    <span class="tml-tag">Mice</span>
+    <h4>In vitro, ex vivo &amp; in vivo electrophysiology</h4>
+    <p>Whole-cell patch-clamp recordings from identified motoneurons and interneurons in spinal cord slices and longitudinal preparations from mice. Alongside these, we record from motoneurons in vivo in anaesthetised animals, use electromyogram (EMG) recordings to study neuromuscular transmission, reflexes and denervation, and record from neuromuscular junctions ex vivo in muscle-nerve preparations.</p>
   </div>
   <div class="tml-card">
     <span class="tml-tag">People</span>
-    <h4>HDsEMG & motor unit decoding</h4>
-    <p>Non-invasive recordings of many motor units at once, used to map spinal circuit function in health and disease.</p>
-  </div>
-  <div class="tml-card">
-    <span class="tml-tag">Anatomy</span>
-    <h4>Tracing & imaging</h4>
-    <p>Retrograde labelling, immunohistochemistry and high-resolution microscopy of synaptic contacts.</p>
+    <h4>HDsEMG &amp; motor unit decoding</h4>
+    <p>Non-invasive recordings of many motor units at once, used to investigate spinal circuit function in health and disease. This is complemented by in silico modelling, developed with our collaborators, in which computational models of spinal circuits are fitted to each person's motor unit recordings to estimate the properties of the circuits that cannot be measured directly.</p>
   </div>
 </div>
 
@@ -63,16 +52,16 @@ In ALS, clinical weakness emerges only after more than 50% of the motoneurons ha
     <figcaption>Longitudinal spinal cord preparations: stimulating the L4/L5 dorsal roots activates Ia afferents while we record from identified motoneurons.</figcaption>
   </figure>
   <figure>
-    <img src="{{ '/assets/img/research/recurrent-inhibition-setup.png' | relative_url }}" alt="Schematic of motoneuron recording with ventral root stimulation to recruit Renshaw cells.">
-    <figcaption>Ventral root stimulation recruits recurrent inhibition through Renshaw cells while motoneurons are recorded.</figcaption>
-  </figure>
-  <figure>
     <img src="{{ '/assets/img/research/voltage-clamp.png' | relative_url }}" alt="Whole-cell voltage-clamp traces of synaptic currents at holding potentials of -60 mV and 0 mV.">
     <figcaption>Whole-cell voltage-clamp recordings of synaptic currents at holding potentials of −60 mV and 0 mV.</figcaption>
   </figure>
   <figure>
     <img class="tml-dark-img" src="{{ '/assets/img/research/synaptic-contacts.png' | relative_url }}" alt="Confocal images of a motoneuron with high-magnification views of synaptic contacts.">
     <figcaption>High-resolution imaging of synaptic contacts on motoneurons.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/research/h-reflex-mouse.png' | relative_url }}" alt="Schematic of sciatic nerve stimulation in mice with recordings from tibialis anterior and gastrocnemius, and example M-wave and H-reflex traces.">
+    <figcaption>In vivo EMG recordings in mice: sciatic nerve stimulation evokes M-waves and H-reflexes in tibialis anterior and gastrocnemius.</figcaption>
   </figure>
 </div>
 
@@ -88,10 +77,6 @@ We combine _in vitro_, _ex vivo_ and _in vivo_ electrophysiology in mouse models
   <figure>
     <img src="{{ '/assets/img/research/motor-unit-inhibition.png' | relative_url }}" alt="Peristimulus time histograms and peristimulus frequencygrams with CUSUM traces for three motor units, showing inhibition duration.">
     <figcaption>Each decoded motor unit reveals how strongly and for how long it is inhibited after stimulation (PSTH-CUSUM and PSF-CUSUM analyses).</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ '/assets/img/research/h-reflex-mouse.png' | relative_url }}" alt="Schematic of sciatic nerve stimulation in mice with recordings from tibialis anterior and gastrocnemius, and example M-wave and H-reflex traces.">
-    <figcaption>The same reflex measures in mice: sciatic nerve stimulation evokes M-waves and H-reflexes in tibialis anterior and gastrocnemius, allowing direct comparison with human recordings.</figcaption>
   </figure>
 </div>
 
