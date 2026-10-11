@@ -41,7 +41,8 @@ nav_order: 2
     <div class="tml-person-text">
       <h4>Ragul Selvamoorthy</h4>
       <p class="tml-role">Research Fellow</p>
-      <p>Ragul trained in sport science and strength and conditioning before a PhD in neuromuscular physiology at the University of Stirling, where he studied the neuromuscular effects of resistance training. As a research fellow with Dr Eduardo Martinez-Valdes at the University of Birmingham, he ran a clinical trial of resistance training for tendon rehabilitation, using high-density surface EMG and ultrasound to study motor unit behaviour. He joined the lab in October 2026 to investigate how spinal circuits and motor neuron firing change over the course of MND/ALS, using non-invasive human electrophysiology such as high-density surface EMG and nerve stimulation.</p>
+      <p>Ragul trained in sport science (BSc, Liverpool Hope University) and strength and conditioning (MSc, Liverpool John Moores University), and worked as a coach and sport scientist before a PhD in neuromuscular physiology at the University of Stirling, funded by the sportscotland institute of sport. There he studied how flywheel resistance training affects jump performance, using techniques including transcranial magnetic stimulation (TMS) and peripheral nerve stimulation.</p>
+      <p>As a research fellow with Dr Eduardo Martinez-Valdes at the University of Birmingham, funded by Orthopaedic Research UK, he ran a randomised controlled trial of a feedback-based resistance training programme for patellar tendinopathy, using high-density surface EMG, ultrasound and shear wave elastography to relate changes in muscle and tendon to motor unit firing. He joined the lab in October 2026 to investigate how spinal circuits and motor neuron firing change over the course of MND/ALS, using non-invasive human electrophysiology such as high-density surface EMG, nerve stimulation, TMS and EEG.</p>
     </div>
   </div>
   <div class="tml-card tml-person-row">
@@ -49,7 +50,8 @@ nav_order: 2
     <div class="tml-person-text">
       <h4>Bartosz Wasicki</h4>
       <p class="tml-role">Research Fellow</p>
-      <p>Bartosz graduated in Biology and Human Health and completed an MSc in Neurobiology at Adam Mickiewicz University in Poznań, Poland. During his PhD in Prof Marcin Bączyk's lab at the Poznań University of Physical Education, he performed <em>in vivo</em> intracellular recordings from spinal motoneurons in mice and studied how trans-spinal direct current stimulation affects motoneurons in the SOD1 G93A mouse model of ALS. He joined the lab in 2026 to combine <em>in vivo</em>, <em>in vitro</em> and <em>ex vivo</em> techniques to investigate spinal microcircuits, motoneurons and motor units in ALS.</p>
+      <p>Bartosz graduated in Biology and Human Health and completed an MSc in Neurobiology at Adam Mickiewicz University in Poznań, Poland, where his thesis compared the rate of force development in rat and cat motor units. He then started a PhD in Prof Marcin Bączyk's lab at the Poznań University of Physical Education, gaining extensive experience in <em>in vivo</em> intracellular recordings from spinal motoneurons in mice. His research focused on how trans-spinal direct current stimulation affects the electrophysiological properties of motoneurons in the SOD1 G93A mouse model of ALS.</p>
+      <p>He joined the lab in 2026 to combine <em>in vivo</em>, <em>in vitro</em> and <em>ex vivo</em> techniques to investigate spinal microcircuits, motoneurons and motor units in ALS.</p>
     </div>
   </div>
 </div>
