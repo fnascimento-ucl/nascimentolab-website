@@ -33,7 +33,7 @@ nav_order: 2
     <div class="tml-avatar-initials" aria-hidden="true">KM</div>
     <div class="tml-person-text">
       <h4>Kath Mazur</h4>
-      <p class="tml-role">Lab member</p>
+      <p class="tml-role">Research Fellow</p>
     </div>
   </div>
   <div class="tml-card tml-person-row">
