@@ -30,10 +30,12 @@ nav_order: 2
 
 <div class="tml-people">
   <div class="tml-card tml-person-row">
-    <div class="tml-avatar-initials" aria-hidden="true">KM</div>
+    <img class="tml-avatar" src="{{ '/assets/img/kath_mazur.jpg' | relative_url }}" alt="Photo of Kath Mazur">
     <div class="tml-person-text">
       <h4>Kath Mazur</h4>
       <p class="tml-role">Research Fellow</p>
+      <p>Kath graduated in Medical Sciences and completed her doctoral (PhD in Neuroscience) and postdoctoral training in Dr Carole Torsney’s research group at The University of Edinburgh as part of the Simons Initiative for the Developing Brain. Her work investigated spinal cord processing of tactile and nociceptive information in transgenic rat models of neurodevelopmental disorders. In her research into somatosensory circuits, she used <em>in vitro</em>/<em>ex vivo</em> electrophysiology, including whole-cell patch clamp and extracellular recordings in spinal cord and dorsal root preparations, as well as rodent behavioural and anatomical approaches.</p>
+      <p>She joined the lab in October 2026 to combine <em>in vitro</em>, <em>ex vivo</em>, and <em>in vivo</em> techniques to investigate spinal microcircuits, motoneurons, and motor units in ALS.</p>
     </div>
   </div>
   <div class="tml-card tml-person-row">
